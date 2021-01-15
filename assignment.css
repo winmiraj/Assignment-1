@@ -1,0 +1,212 @@
+/*Menu bar style*/
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.menu{
+    height: 80px;
+    margin-left: 890px;
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+    padding: 20px;
+    
+    
+}
+.menu ul li:hover{
+    color: wheat;
+    background: red;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+    font-weight: 500px;
+}
+
+/*Middel Part-1 & Two*/
+.main-contain{
+    height: 490px;
+}
+.half-width{
+    width: 30%;
+    height: 70%;
+    float: left;
+    margin-left: 12%;
+}
+.half-width img{
+    width: 100%;
+}
+.customise-color-1{
+    color: rgb(54,57,88);
+    font-weight: 500px;
+    font-size: 50px;
+}
+
+.customise-color-2{
+    color: rgb(255,131, 103);
+    font-weight: 500px;
+    font-size: 50px;
+    margin-top:-40px
+}
+.paragraph{
+    font-size: 17px;
+    margin-top: -20px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightSalmon, tomato);
+    padding: 20px 50px;
+    color: white;
+    border-radius: 10px;
+    line-height: 70px;
+    
+}
+.main{
+    height: 490px;
+    margin-top: -20px;
+}
+.about{
+    margin-top: 80px;
+    margin-left: 35px;
+}
+.main-paragraph{
+    margin-left: 35px;
+}
+
+.clear-contain{
+    clear: both;
+}
+
+/*Working contain*/
+
+.working-contain{
+    height: 230px;
+    background: rgb(248,249,252);
+    position: relative;
+    
+
+}
+
+
+.working-paragraph-2{
+    margin-top: 130px;
+    margin-left: 480px;
+    font-weight: 900;
+    font-size: 35px;
+    position: absolute;
+}
+.working-customis{
+    color: rgb(244,96,96);
+    font-weight: 900;
+    font-size: 35px;
+}
+.box-main-contain{
+    background:rgb(248,249,252);
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+.box-shap-contain{
+    width: 80%;
+    height: 500px;
+    background:rgb(248,249,252);
+    margin-top: 20px;
+    margin-left: 110px;
+    position: absolute;
+     
+}
+.box-shap-all-pic{
+    width: 31%;
+    height: 400px;
+    background: white;
+    margin-left: 25px;
+    float: left;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px  rgb(231, 230, 230);
+    
+}
+.box-shap-all-pic img{
+    width: 95%;
+    padding: 8px;
+}
+.box-paragraph{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.box-paragraph-1{
+    padding-left: 10px;
+}
+
+/*Footer */
+.footer{
+    height: 400px;
+    width: 100%;
+    position: relative;
+}
+.footer-img-part{
+    width: 65%;
+    height: 200px;
+    margin-left:220px ;
+    margin-top: 100px;
+    position: absolute;
+    border-radius: 26px;
+}
+.footer-img-part img{
+    width: 100%;
+}
+.footer-paragraph{
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 300px;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: white;
+}
+.footer-paragraph-1{
+    position: absolute;
+    margin-top: 189px;
+    margin-left: 890px;
+    color: white;
+    line-height: 15px;
+    
+    
+
+
+}
+.footer-end{
+    height: 200px;
+    width: 100%;
+    position: relative;
+}
+.footer-end-paragraph{
+    margin-left: 550px;
+    position: absolute;
+    text-transform: uppercase;
+    color: rgb(105,104,113);
+    font-size: 18px;
+    font-weight: 900;
+    
+}
+.footer-end-paragraph-2{
+    font-size: 40px;
+    margin-left: -80px;
+    text-transform: lowercase;
+    color: rgb(54,57,88);
+}
+.footer-end-icons{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 590px;
+
+}
+.footer-end-icon{
+    float: left;
+    margin-left: -50px;
+}
+.footer-end-icon img{
+    width: 35%;
+    
+    
+}
